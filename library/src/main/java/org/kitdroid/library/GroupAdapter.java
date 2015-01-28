@@ -22,6 +22,11 @@ public abstract class GroupAdapter extends BaseAdapter {
     private int mItemCount;
     private List<Integer> mGroupCountIndex = new ArrayList<Integer>();
 
+    // TODO group的marginTop or marginBottom
+    // 可以ViewTreeObserver.OnGlobalLayoutListener监听
+
+
+
     /*
      * 实现父类的方法
      */
