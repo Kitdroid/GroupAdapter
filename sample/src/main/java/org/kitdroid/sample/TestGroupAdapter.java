@@ -10,39 +10,24 @@ import org.kitdroid.library.GroupAdapter;
  */
 public class TestGroupAdapter extends GroupAdapter{
 
+
     @Override
     public int getGroupCount() {
         return 0;
     }
 
     @Override
-    public int getGroupChildCount(int groupPosition) {
+    public int getChildCount(int groupPosition) {
         return 0;
     }
 
     @Override
-    public Object getGroupChildItem(int groupPosition, int childPosition) {
+    public Object getChildItem(int groupPosition, int childPosition) {
         return null;
     }
 
     @Override
-    public long getGroupChildItemId(int groupPosition, int childPosition) {
-        return super.getChildViewTypeCount();
+    public View getChildView(int groupPosition, int childPosition, View convertView, ViewGroup parent) {
+        return null;
     }
-
-    @Override
-    public int getGroupChildView(int groupPosition, int childPosition, View convertView, ViewGroup parent) {
-        return 0;
-    }
-
-    @Override
-    public int getChildViewTypeCount() {
-        return super.getChildViewTypeCount();
-    }
-
-    @Override
-    public int getChildViewType(int groupPosition, int childPosition) {
-        return super.getChildViewType(groupPosition, childPosition);
-    }
-
 }

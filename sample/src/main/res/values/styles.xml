@@ -5,4 +5,24 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="line_h">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#eeeeee</item>
+    </style>
+
+    <style name="line_h.orange">
+        <item name="android:background">#FFFF00</item>
+    </style>
+
+    <style name="line_h.red">
+        <item name="android:background">#FF0000</item>
+    </style>
+    <style name="line_h.green">
+        <item name="android:background">#00FF00</item>
+    </style>
+    <style name="line_h.blue">
+        <item name="android:background">#0000FF</item>
+    </style>
+
 </resources>
